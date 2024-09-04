@@ -84,7 +84,7 @@ body{
 }
 
 
-.footer {
+footer {
 background-color: black;
 height: 200px;
 display: flex;
@@ -94,19 +94,19 @@ align-items:center
 
 }
 
-.footer i{
+footer i{
     color: aliceblue;
     font-size: 40px;
     padding: 5px;
 }
-.header h1{
+header h1{
     color: aliceblue;
     font-size: 40px;
     padding: 5px;
 }
-.header{
+header{
     background-color: black;
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content:center;
