@@ -61,6 +61,7 @@ body{
     margin: 20px;
     
 }
+
 .tarjetas .productos .caja{
      background-color: black;
     margin: 40px;
@@ -69,8 +70,37 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    position: relative;
+    padding-bottom: 10px;
     
 }
+.tarjetas .productos .caja .precio {
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 0.2rem;
+}
+
+.tarjetas .productos .caja .vermas {
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 2rem;
+    letter-spacing: 2px;
+}
+
+.tarjetas .productos .caja .vermas:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: 600;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
 .tarjetas .productos .caja img{
     width: 300px;
     height: 350px;
@@ -84,7 +114,7 @@ body{
 }
 
 
-.footer {
+footer {
 background-color: black;
 height: 200px;
 display: flex;
@@ -94,19 +124,19 @@ align-items:center
 
 }
 
-.footer i{
+footer i{
     color: aliceblue;
     font-size: 40px;
     padding: 5px;
 }
-.header h1{
+header h1{
     color: aliceblue;
     font-size: 40px;
     padding: 5px;
 }
-.header{
+header{
     background-color: black;
-    height: 200px;
+    height: 15s0px;
     display: flex;
     flex-direction: row;
     justify-content:center;
