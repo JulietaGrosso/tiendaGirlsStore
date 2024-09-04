@@ -136,7 +136,7 @@ header h1{
 }
 header{
     background-color: black;
-    height: 15s0px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content:center;
