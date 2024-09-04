@@ -80,4 +80,35 @@ body{
     color: beige;
     font-size: 20px;
     letter-spacing: 5px;
+
+}
+
+
+.footer {
+background-color: black;
+height: 200px;
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items:center
+
+}
+
+.footer i{
+    color: aliceblue;
+    font-size: 40px;
+    padding: 5px;
+}
+.header h1{
+    color: aliceblue;
+    font-size: 40px;
+    padding: 5px;
+}
+.header{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center  
 }
